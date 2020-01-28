@@ -45,6 +45,7 @@ list(APPEND inspector_sources
     ofdm_bouzegzi_c_impl.cc
     ofdm_zkf_c_impl.cc
     ofdm_synchronizer_cc_impl.cc
+    vis3d_vf_impl.cc
 )
 
 set(inspector_sources "${inspector_sources}" PARENT_SCOPE)

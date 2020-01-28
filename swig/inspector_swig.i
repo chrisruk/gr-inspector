@@ -21,6 +21,7 @@ namespace std {
 #include "inspector/signal_detector_cvf.h"
 #include "inspector/signal_extractor_c.h"
 #include "inspector/signal_separator_c.h"
+#include "inspector/vis3d_vf.h"
 %}
 
 %include "inspector/ofdm_synchronizer_cc.h"
@@ -37,3 +38,6 @@ GR_SWIG_BLOCK_MAGIC2(inspector, signal_detector_cvf);
 GR_SWIG_BLOCK_MAGIC2(inspector, signal_extractor_c);
 %include "inspector/signal_separator_c.h"
 GR_SWIG_BLOCK_MAGIC2(inspector, signal_separator_c);
+%include "inspector/vis3d_vf.h"
+GR_SWIG_BLOCK_MAGIC2(inspector, vis3d_vf);
+
